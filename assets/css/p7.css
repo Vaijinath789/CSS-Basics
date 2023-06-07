@@ -1,0 +1,23 @@
+.jumbotron{
+    background-color: purple;
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant:small-caps;
+}
+.cssText{
+    text-align:justify;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+.cssText>p{
+    text-indent: 200px;
+}

@@ -1,0 +1,55 @@
+/* p8.HTML */
+.navBar{
+    background-color: grey;
+}
+.navBar>ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display:inline-block;
+    padding: 20px;
+}
+.navBar>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+.navBar>ul>li:hover a{
+    background-color: white;
+}
+.navBar>img{
+    height: 54px;
+}
+
+/* LIST MARKER POSITION */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li>a{
+    color: white;
+    text-decoration: none;
+}
+.list-marker-position>ol>li::marker{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* USING IMAGE AS BULLET POINT */
+.list-icon>ul>li{
+    list-style-image:url(../images/dance.png);
+}
+/* LIST SHORTHAND PROPETY */
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-type:decimal;
+    list-style-position: inside;
+    list-style-image:url(../images/dance.png);   
+}

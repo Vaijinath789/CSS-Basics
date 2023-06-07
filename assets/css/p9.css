@@ -1,0 +1,46 @@
+/* empty-cell-table */
+.empty-cell-table{
+    empty-cells: hide;
+}
+/* ODD-EVEN TABLE */
+.odd-even-table,odd-even-table th,odd-even-table td{
+    border: 2px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    color: rgb(203, 18, 18);
+}
+
+/* .odd-even-table{
+    background-color: blueviolet;
+} */
+
+.odd-even-table tr:nth-child(odd){
+    background-color: blue;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: rgb(155, 155, 184);
+}
+.odd-even-table tr:hover{
+    background-color: aquamarine;
+}
+.odd-even-table th{
+    background-color: brown;
+}
+.odd-even-table>caption{
+    color: antiquewhite;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.odd-even-table td{
+    height: 20px;
+    vertical-align: text-top;
+}
+
+/* layout-table */
+.layout-table{
+    width: 2%;
+    table-layout: fixed;
+}
+.layout-table td,.layout-table th{
+    overflow: scroll;
+}
